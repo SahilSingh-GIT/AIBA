@@ -1,0 +1,11 @@
+.venv/
+.venv_mac/
+.venv*/
+.pip-cache/
+.mplconfig/
+.tools/
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+

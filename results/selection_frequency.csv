@@ -1,0 +1,10 @@
+term,label,splits_selected
+charges_z@m1,Monthly charge (SD) x month 1,5
+fiber@m1,Fiber optic x month 1,4
+charges_z@m2_6,Monthly charge (SD) x months 2-6,4
+credit_card@m1,Credit card (auto) x month 1,1
+stream_tv@m2_6,Streaming TV x months 2-6,1
+fiber@m7_24,Fiber optic x months 7-24,1
+phone@m1,Phone service x month 1,1
+no_support@m1,No tech support x month 1,1
+no_security@m2_6,No online security x months 2-6,1

@@ -1,0 +1,143 @@
+{
+  "data": {
+    "n_raw": 7043,
+    "dropped_blank_charges": 11,
+    "n": 7032,
+    "events": 1869,
+    "censored": 5163
+  },
+  "seeds": [
+    42,
+    7,
+    19,
+    101,
+    2024
+  ],
+  "primary_seed": 42,
+  "windows": {
+    "m1": [
+      1,
+      1
+    ],
+    "m2_6": [
+      2,
+      6
+    ],
+    "m7_24": [
+      7,
+      24
+    ]
+  },
+  "candidates": 57,
+  "alpha": 0.05,
+  "confirmations": [
+    {
+      "seed": 42,
+      "selected": [
+        "charges_z@m1",
+        "fiber@m1",
+        "charges_z@m2_6"
+      ],
+      "lr_stat": 67.63877190823223,
+      "lr_df": 3,
+      "lr_p": 1.3669395975639183e-14,
+      "wald_stat": 68.27720508533667,
+      "wald_p": 9.979247382355654e-15,
+      "n_disc": 3516,
+      "n_conf": 3516,
+      "events_disc": 935,
+      "events_conf": 934,
+      "rows_disc": 114542,
+      "rows_conf": 113448
+    },
+    {
+      "seed": 7,
+      "selected": [
+        "charges_z@m1",
+        "charges_z@m2_6",
+        "fiber@m1"
+      ],
+      "lr_stat": 59.41016543623846,
+      "lr_df": 3,
+      "lr_p": 7.856892708345707e-13,
+      "wald_stat": 61.636993084397204,
+      "wald_p": 2.626877521004858e-13,
+      "n_disc": 3516,
+      "n_conf": 3516,
+      "events_disc": 934,
+      "events_conf": 935,
+      "rows_disc": 114333,
+      "rows_conf": 113657
+    },
+    {
+      "seed": 19,
+      "selected": [
+        "charges_z@m1",
+        "credit_card@m1",
+        "fiber@m1",
+        "stream_tv@m2_6"
+      ],
+      "lr_stat": 79.68168019110817,
+      "lr_df": 4,
+      "lr_p": 2.0344061453620577e-16,
+      "wald_stat": 79.51382921302479,
+      "wald_p": 2.2079674584379841e-16,
+      "n_disc": 3516,
+      "n_conf": 3516,
+      "events_disc": 934,
+      "events_conf": 935,
+      "rows_disc": 115123,
+      "rows_conf": 112867
+    },
+    {
+      "seed": 101,
+      "selected": [
+        "charges_z@m1",
+        "charges_z@m2_6",
+        "fiber@m7_24",
+        "phone@m1",
+        "no_support@m1"
+      ],
+      "lr_stat": 58.48665194584282,
+      "lr_df": 5,
+      "lr_p": 2.496141396104679e-11,
+      "wald_stat": 59.732373368544664,
+      "wald_p": 1.3805029933870623e-11,
+      "n_disc": 3516,
+      "n_conf": 3516,
+      "events_disc": 934,
+      "events_conf": 935,
+      "rows_disc": 112598,
+      "rows_conf": 115392
+    },
+    {
+      "seed": 2024,
+      "selected": [
+        "charges_z@m1",
+        "fiber@m1",
+        "charges_z@m2_6",
+        "no_security@m2_6"
+      ],
+      "lr_stat": 70.51012502366939,
+      "lr_df": 4,
+      "lr_p": 1.7712895083628833e-14,
+      "wald_stat": 67.34669066923384,
+      "wald_p": 8.238491140201902e-14,
+      "n_disc": 3516,
+      "n_conf": 3516,
+      "events_disc": 935,
+      "events_conf": 934,
+      "rows_disc": 112964,
+      "rows_conf": 115026
+    }
+  ],
+  "renewal_control": [
+    {
+      "term": "renewal_window",
+      "odds_ratio": 1.014962950271206,
+      "or_low": 0.3723181132638693,
+      "or_high": 2.766853810556197,
+      "pvalue": 0.9768433599004869
+    }
+  ]
+}
